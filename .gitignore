@@ -1,2 +1,15 @@
+# linter output
+.cache
+
+# node files and directories
 node_modules/
+npm-debug.log
+.npm/
+
+# environment variables
 .env
+
+# OSX system files
+.DS_Store
+.AppleDouble
+.LSOverride

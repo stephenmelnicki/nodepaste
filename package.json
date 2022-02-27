@@ -1,21 +1,31 @@
 {
   "name": "nodepaste",
-  "description": "A node implementation of the logpaste web service",
+  "private": true,
   "version": "1.0.0",
-  "license": "MIT",
-  "repository": "smelnicki/nodepaste",
-  "engines": {
-    "node": ">= 16.14",
-    "npm": ">= 8.3.1"
-  },
+  "description": "A node implementation of the logpaste web service",
+  "homepage": "https://nodepaste.com",
   "scripts": {
-    "lint": "prettier --write .",
+    "lint": "eslint . --cache --cache-location .cache/.eslintcache",
+    "start": "cross-env NODE_ENV=development node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "smelnicki/nodepaste",
+  "author": "Stephen Melnicki <smelnicki@smelnicki.org>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 16.14"
+  },
   "dependencies": {
-    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
-    "prettier": "^2.5.1"
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-config-semistandard": "^16.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "prettier": "^2.5.1",
   }
 }
