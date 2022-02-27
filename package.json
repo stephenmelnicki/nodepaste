@@ -6,7 +6,7 @@
   "homepage": "https://nodepaste.com",
   "scripts": {
     "lint": "eslint . --cache --cache-location .cache/.eslintcache",
-    "start": "cross-env NODE_ENV=development node index.js",
+    "start": "cross-env NODE_ENV=development node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "smelnicki/nodepaste",
