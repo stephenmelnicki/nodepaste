@@ -11,5 +11,5 @@ RUN npm ci --only=production
 
 COPY --chown=node:node . .
 
-CMD ["dumb-init", "node", "server.js"]
 EXPOSE 3000
+CMD ["dumb-init", "node", "server.js"]
