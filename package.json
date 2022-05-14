@@ -1,7 +1,7 @@
 {
   "name": "nodepaste",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A node implementation of the logpaste web service",
   "homepage": "https://nodepaste.com",
   "scripts": {
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "smelnicki/nodepaste",
-  "author": "Stephen Melnicki <smelnicki@smelnicki.org>",
+  "author": "Stephen Melnicki <stephen@stephenmelnicki.com>",
   "license": "MIT",
   "engines": {
     "node": ">= 16.14"
